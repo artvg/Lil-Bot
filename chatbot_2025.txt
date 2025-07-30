@@ -1,0 +1,52 @@
+An algorithm is a step-by-step method for solving a problem or completing a task. Algorithms are the 
+backbone of computer science and are used in everything from sorting data to managing networks.
+
+Bubble Sort is a simple sorting algorithm that works by repeatedly comparing and swapping adjacent 
+elements if they are in the wrong order. It continues looping until the list is fully sorted. Although 
+not efficient for large datasets, it's a great learning tool for understanding sorting basics. It could 
+be useful in small systems like embedded devices where simplicity matters more than performance.
+
+Merge Sort is an efficient, divide-and-conquer sorting algorithm. It recursively splits a list into halves, 
+sorts each half, and merges the sorted halves back together. Merge Sort is excellent for large datasets, 
+especially when stability and worst-case performance (O(n log n)) are important, like in external sorting 
+on disk.
+
+Quick Sort is another divide-and-conquer algorithm that picks a 'pivot' and partitions the array into 
+elements less than and greater than the pivot, then recursively sorts them. It performs well in practice 
+and is often used in standard libraries. It’s great for real-time systems where fast average-case 
+performance is important.
+
+Insertion Sort builds a sorted array one item at a time, placing each new item into its correct position 
+among the previously sorted elements. It’s ideal for small datasets or when the input list is already nearly 
+sorted, like sorting a deck of cards.
+
+Binary Search is a fast algorithm used to search for an element in a sorted list. It works by dividing the 
+list in half repeatedly and comparing the target to the middle value. It is used in places like search 
+engines, autocomplete, and looking up dictionary entries.
+
+Recursion is a technique where a function calls itself to solve smaller instances of a problem. It's useful 
+in tasks like traversing trees, solving puzzles like Towers of Hanoi, or calculating factorials. It’s elegant
+ and clean, though can be less efficient without proper base cases and memory control.
+
+Linear Search checks each element in a list one by one until it finds the target value. While inefficient 
+for large lists, it works well for small or unsorted collections, like finding a contact by name in a small 
+address book.
+
+Depth-First Search (DFS) explores a graph or tree by going deep into one branch before backtracking. It’s 
+useful in maze solving, game trees, and scheduling tasks with dependencies.
+
+Breadth-First Search (BFS) explores a graph level by level. It's often used for finding the shortest path in 
+unweighted graphs, like social networks, navigation apps, or recommendation systems.
+
+Dijkstra’s Algorithm is used to find the shortest path in a weighted graph. It’s widely applied in GPS 
+systems, network routing protocols, and resource management systems.
+
+Dynamic Programming is a method of solving complex problems by breaking them into overlapping subproblems 
+and storing solutions. It’s used in optimization problems like the knapsack problem, pathfinding (like in 
+video games), and bioinformatics for sequence alignment.
+
+Greedy Algorithms make the best local choice at each step with the hope of finding the global optimum. 
+They are fast and often used in problems like coin change, scheduling, and minimum spanning trees.
+
+Algorithms are everywhere — from the route you take on Google Maps to the recommendations you get on 
+YouTube. Knowing how they work can make you a better problem solver and programmer.
